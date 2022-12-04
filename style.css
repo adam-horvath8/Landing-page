@@ -29,6 +29,26 @@ header{
 .h1f{
     font-size: 48px;
 }
+.second-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pr-pic{
+    display: flex;
+    gap: 60px;
+}
+.img2{
+    width: 200px;
+    height: 220px;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+h2{
+    font-size: 36px;
+    color: #1F2937;
+}
 h1{
     color: white;
     margin:0;
@@ -46,4 +66,8 @@ button{
     text-align: center;
     border-radius: 10px;
     border: none;
+}
+footer{
+    background-color: #1F2937;
+    color: white;
 }
